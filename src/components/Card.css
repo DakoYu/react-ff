@@ -1,0 +1,30 @@
+.card {
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 5%;
+    border: 1px solid rgba(160, 160, 160, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    transform: translateY(0px);
+    transition: transform 200ms 100ms ease-out;
+}
+
+.card:hover {
+    transform: translateY(-50px);
+    transition: transform 200ms 100ms ease-in;
+}
+
+.card img {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card h4 {
+    margin: 5%;
+}
+
+.card p {
+    margin: 5%;
+}

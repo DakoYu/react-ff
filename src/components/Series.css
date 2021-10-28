@@ -1,0 +1,11 @@
+.series {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.series h1 {
+    margin: auto;
+    text-align: center;
+}
